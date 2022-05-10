@@ -61,4 +61,15 @@ class block_admin_courselist extends block_base
 
         return $this->content;
     }
+
+    /**
+     * 
+     * Allow the block to have multiple instance
+     * 
+     * @return bool
+     */
+    function instance_allow_multiple()
+    {
+        return false;
+    }
 }
