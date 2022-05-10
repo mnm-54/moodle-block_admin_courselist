@@ -25,7 +25,6 @@
 $string['admin_courselist:addinstance'] = 'Add a new admin_courselist';
 $string['admin_courselist:myaddinstance'] = 'Add a new admin_courselist to Dashboard';
 $string['admin_courselist'] = '(new admin_courselist)';
-$string['pluginname'] = 'admin courselist';
-
+$string['pluginname'] = 'Admin courselist';
 
 $string['showcourses'] = 'Show courses';
