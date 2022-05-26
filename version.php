@@ -27,3 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version   = 2022050900;        // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2021051100;        // Requires this Moodle version.
 $plugin->component = 'block_admin_courselist'; // Full name of the plugin (used for diagnostics)
+
+$plugin->dependencies = array(
+    'local_participant_image_upload' => 2022051000
+);
