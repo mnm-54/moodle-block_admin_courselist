@@ -53,7 +53,7 @@ class block_admin_courselist extends block_base
         foreach ($courses as $course) {
             $editurl = $CFG->wwwroot . '/local/participant_image_upload/manage.php' . '?cid=' . $course->id;
             $this->content->text .= $course->fullname .
-                '<button type="button" style="float: right;" onclick="location.href=\'' . $editurl . '\'">Check!</button>'
+                '<button type="button" style="float: right;" onclick="location.href=\'' . $editurl . '\'">Student-list</button>'
                 . '<br>' . '<br>';
         }
 
