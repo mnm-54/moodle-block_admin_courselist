@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Moodle-cBlock Admin Courselist Plugin</h3>
+<h3 align="center">Moodle-Block Admin Courselist Plugin</h3>
 
 <div align="center">
 
@@ -81,6 +81,8 @@ git clone https://github.com/mnm-54/moodle-block_admin_courselist.git
 ```
 Dashboard->Site Administration
 ```
+
+- Now follow the instruction there to complete the installation
 
 ## 🎈 Usage <a name="usage"></a>
 
